@@ -1,28 +1,28 @@
 class Ordo < Formula
   desc "Terminal-first, single-user project planning tool"
   homepage "https://github.com/ilyasturki/ordo"
-  version "0.14.3"
+  version "0.15.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ilyasturki/ordo/releases/download/v#{version}/ordo-darwin-arm64"
-      sha256 "c53388b94c178ccc01e501659efc4a19da66f1a9645223c2eba15adc936c2aa2"
+      sha256 "0f481f52b6b8c252695a358ce9d5573145f0c5eeb022a4317c98ae081f1ba45d"
     end
     on_intel do
       url "https://github.com/ilyasturki/ordo/releases/download/v#{version}/ordo-darwin-x64"
-      sha256 "065243567a5c557d1bf886bad0f0f434ffeb0e6ac68af343646ad0d5de9ef90b"
+      sha256 "5a7eeedc99deaf1b6ce33d03d0b448f8c74528a9cf24e94c2d1f14da10617c44"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ilyasturki/ordo/releases/download/v#{version}/ordo-linux-arm64"
-      sha256 "113a34283339f5ffa7ca9692d479a519cb239ef5ba18ac6efddfe5ba68289d1e"
+      sha256 "0588f42d4fd1e6b46ac717b784b005094a9bc8bd01207d4eadb64fa79b75afd7"
     end
     on_intel do
       url "https://github.com/ilyasturki/ordo/releases/download/v#{version}/ordo-linux-x64"
-      sha256 "eb876c471f8ba5954f00fa3d028f9f23023d3029b1ce9caf5d8c09f67a22e9e8"
+      sha256 "ee7c5ac1b3edb7f5e9418822d07193ca20feb393021af8457a524ef37612065a"
     end
   end
 
